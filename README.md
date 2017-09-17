@@ -9,7 +9,7 @@ Program that solves the Rubik's cube <br/>
   - L L' = no moves (doesn't change anything, because the move was reverted), <br/>
   - B B2 = B' (three moves in the clockwise direction can simply be written as a single move in the counterclockwise direction), and <br/>
   - D2 D D2 D2 = D' (seven movements in the clockwise direction equal 4 + 3 movements, where after the first four the cube reverts to its original state, so the net change in the cube is three clockwise movements or simply one counterclockwise movement). <br/>
-  A Rubik's cube has three types of pieces or "cubies": <br/>
+A Rubik's cube has three types of pieces or "cubies": <br/>
   - 6 centers that have one sticker each are fixed respect to each other, <br/>
   - 12 edges that have two stickers each, and <br/>
   - 8 edges that have three stickers each. <br/>
