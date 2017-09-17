@@ -16,7 +16,7 @@ Rubik's Cube Basics: <br/>
   A collection of one or more movements that lead to a particular state are called algorithms. The "particular state" can sometimes be a scrambled cube, so although it may seem counterintuitive, "scramble algorithms" exist. <br/>
   
 
-Synopsis:
+Synopsis: <br/>
   The program creates a double array of "pieces" (objects) and assigns a numerical value to each relevant piece (note that what my program refers to as pieces are actually stickers, but the program moves the cube as if they were entire pieces or "cubies"). <br/>
   It takes in the user's scrambler algorithm, simplifies it, and performs those movements on a solved Rubik's cube. <br/>
   The program utilizes what is commonly referred to as the "beginner's method", a simple 7-step method to solve the Rubik's cube, showing the user each step. <br/>
