@@ -18,7 +18,10 @@ A Rubik's cube has three types of pieces or "cubies": <br/>
 
 ### Synopsis: <br/>
   The program creates a double array of "pieces" (objects) and assigns a numerical value to each relevant piece (note that what my program refers to as pieces are actually stickers, but the program moves the cube as if they were entire pieces or "cubies"). <br/>
-  It takes in the user's scrambler algorithm, simplifies it, and performs those movements on a solved Rubik's cube. <br/>
-  The program utilizes what is commonly referred to as the "beginner's method", a simple 7-step method to solve the Rubik's cube, showing the user each step. <br/>
-  It writes out all the individual movements it used and writes down a simplified version that the user can use to solve the cube, given the scramble he/she provided. <br/>
+  The program takes in the user's scrambler algorithm, simplifies it, and performs those movements on a solved Rubik's cube. <br/>
+  The scrambler algorithm is translated and added into a queue called "scramblerAlg", then the elements of the queue are added into a linked list in which the algorithm can be simplified. <br/>
+  The program utilizes what is commonly referred to as the "beginner's method", a simple 7-step method to solve the Rubik's cube, showing the user each step (graphically and with words). <br/>
+  Each step in the beginner's method is represented by a function, and each function calls other helper functions, which in turn call functions that perform individual face moves (for example F, D' R2, L, etc.). <br/>
+  Each individual face move is added to a queue called "solverAlg". Then this queue is passed in to the simplifier method, which as explained earlier, copies the content of the queue into a linked list and simplifies it, and then returns those values to the queue. <br/>
+  The program outputs the algorithm (set of individual face moves) it used and writes down the simplified version that the user can use to solve the cube, given the scramble he/she provided at the beginning. <br/>
   
