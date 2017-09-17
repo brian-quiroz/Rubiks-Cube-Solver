@@ -2,7 +2,7 @@
 Program that solves the Rubik's cube
 
 Rubik's Cube Basics:
-  Rubik's cube movements are typically written in terms of 6 basic letters that represent the Front (F), Back (B), Left (L), Right (R), Up (U), and Down (D) faces on a Rubik's cube relative to the person holding the cube.
+  Rubik's cube movements are typically written in terms of 6 basic letters that represent the Front (F), Back (B), Left (L), Right (R), Up (U), and Down (D) faces on a Rubik's cube relative to the person holding the cube. <br/>
   The letters by themselves (such as F) represent a clockwise 90 degree movement, while letters with an apostrophe (such as R') denote a counterclockwise 90 degree movement and letters with a '2' (such as U2) stand for a double movement in any direction.
   Any other amount of movements in either clockwise or counterclockwise direction will yield the same result as either of the three movements I explained. Thus, if any redundancy is found, the algorithm can be simplified.
   Examples of redundancy:
