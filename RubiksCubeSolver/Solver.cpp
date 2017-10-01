@@ -349,15 +349,6 @@ void Solver::innerMovement(int initialEdgeRow, int initialEdgeCol) {
 	cube[cx][cy + 2]->setPermutation(temp);
 }
 
-void Solver::orientationChange(int orientRow, int orientCol) {
-	int x = orientRow, y = orientCol;
-	if (cube[x][y]->getOrientation() == 0) {
-		cube[x][y]->setOrientation(1);
-	} else {
-		cube[x][y]->setOrientation(0);
-	}
-}
-
 void Solver::F() {
 	int temp = 0;
 	innerMovement(3,4);
