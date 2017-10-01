@@ -5,16 +5,8 @@ Piece::Piece() {
 	p_permutation = 0;
 }
 
-int Piece::getOrientation() const {
-	return(p_orientation);
-}
-
 int Piece::getPermutation() const {
 	return(p_permutation);
-}
-
-void Piece::setOrientation(int orientation) {
-	p_orientation = orientation;
 }
 
 void Piece::setPermutation(int permutation) {
