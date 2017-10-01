@@ -10,7 +10,6 @@ class Piece {
 		int getPermutation() const;
 		void setPermutation(int permutation);
 	protected:
-		int p_orientation;
 		int p_permutation;
 };
 
