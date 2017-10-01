@@ -25,7 +25,6 @@ class Solver {
 		void simplifyAlgorithm(Queue<std::string>& algorithm);
 		void printCube();
 		void innerMovement(int initialEdgeRow, int initialEdgeCol);
-		void orientationChange(int orientRow, int orientCol);
 		void F();
 		void R();
 		void U();
