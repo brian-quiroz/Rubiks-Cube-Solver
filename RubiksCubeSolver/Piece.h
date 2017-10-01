@@ -6,7 +6,6 @@
 class Piece {
 	public:
 		Piece();
-		std::string getType() const;
 		int getPermutation() const;
 		void setPermutation(int permutation);
 	protected:
