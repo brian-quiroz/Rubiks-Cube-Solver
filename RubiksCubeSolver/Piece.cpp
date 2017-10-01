@@ -1,7 +1,6 @@
 #include "Piece.h"
 
 Piece::Piece() {
-	p_orientation = 0;
 	p_permutation = 0;
 }
 
