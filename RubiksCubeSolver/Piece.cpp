@@ -11,7 +11,3 @@ int Piece::getPermutation() const {
 void Piece::setPermutation(int permutation) {
 	p_permutation = permutation;
 }
-
-std::string Piece::getType() const {
-	return("Piece");
-}
